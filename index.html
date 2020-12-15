@@ -157,7 +157,7 @@
         </div>
       </div>
     </section>
-<!-- About Section -->
+    <!-- About Section -->
     <section id="About">
       <h2 class="about-h2">About Us</h2>
       <div class="about-contain">
@@ -210,5 +210,42 @@
         </div>
       </div>
     </section>
+    <!-- Footer -->
+    <footer>
+      <h2>Follow Us</h2>
+      <div class="footer_icons">
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+      </div>
+      <div class="footer_text">
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <img src="img/logo cnc.png" alt="img" />
+    </footer>
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+    <script src="slick.js"></script>
 </body>
+<!-- JavaScript Code -->
+<script>
+  var element = document.getElementById("modal");
+
+  document.getElementById("but-donate").addEventListener("click", function() {
+    console.log(element);
+    element.classList = "";
+    return false;
+  });
+
+  document.getElementById("cros").addEventListener("click", function() {
+    console.log(element);
+    element.classList = "noactive";
+    return false;
+  });
+</script>
 </html>
